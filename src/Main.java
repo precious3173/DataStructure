@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -9,6 +11,13 @@ public class Main {
         addArray.findTempDays(0);
         addArray.findTempDays(1);
         addArray.findTempDays(3);
+
+        Scanner scanner = new Scanner(System.in);
+
+        int days =scanner.nextInt();
+
+        addArray.findTempDays(days);
+
 
     }
 }
