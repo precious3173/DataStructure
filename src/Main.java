@@ -18,11 +18,12 @@ public class Main {
 //
 //        addArray.findTempDays(days);
         
-        DeclareVariable declare = new DeclareVariable();
-        declare.findMe();
-        
-        Exercise2 exercise = new Exercise2();
+//        DeclareVariable declare = new DeclareVariable();
+//        declare.findMe();
+//        
+//        Exercise2 exercise = new Exercise2();
 
+    	Iteration iteration = new Iteration();
 
     }
 }
