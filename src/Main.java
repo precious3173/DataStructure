@@ -23,7 +23,8 @@ public class Main {
 //        
 //        Exercise2 exercise = new Exercise2();
 
-    	Iteration iteration = new Iteration();
+    	//Iteration iteration = new Iteration();
+    	WhileLoop whileLoop = new WhileLoop();
 
     }
 }
