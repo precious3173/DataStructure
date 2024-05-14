@@ -24,7 +24,11 @@ public class Main {
 //        Exercise2 exercise = new Exercise2();
 
     	//Iteration iteration = new Iteration();
-    	WhileLoop whileLoop = new WhileLoop();
+//    	WhileLoop whileLoop = new WhileLoop();
 
+//    	doWhileLoop doWhile = new doWhileLoop();
+    	ContinueStatement cont = new ContinueStatement();
+    	
+    	
     }
 }
