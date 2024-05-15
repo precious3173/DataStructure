@@ -27,8 +27,8 @@ public class Main {
 //    	WhileLoop whileLoop = new WhileLoop();
 
 //    	doWhileLoop doWhile = new doWhileLoop();
-    	ContinueStatement cont = new ContinueStatement();
-    	
+  	//ContinueStatement cont = new ContinueStatement();
+    InterestRate interest = new InterestRate(); 	
     	
     }
 }
