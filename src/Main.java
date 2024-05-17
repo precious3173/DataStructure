@@ -28,7 +28,10 @@ public class Main {
 
 //    	doWhileLoop doWhile = new doWhileLoop();
   	//ContinueStatement cont = new ContinueStatement();
-    InterestRate interest = new InterestRate(); 	
+//    InterestRate interest = new InterestRate(); 
+    	
+    	CountingFigures counting = new CountingFigures();
+    	counting.Count();
     	
     }
 }
