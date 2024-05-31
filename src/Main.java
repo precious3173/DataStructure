@@ -30,8 +30,11 @@ public class Main {
   	//ContinueStatement cont = new ContinueStatement();
 //    InterestRate interest = new InterestRate(); 
     	
-    	CountingFigures counting = new CountingFigures();
-    	counting.Count();
+//    	CountingFigures counting = new CountingFigures();
+//    	counting.Count();
+    	
+    	int [] a = {3, 41, 52, 26, 38, 57, 9, 49};
+    	InsertionSorting insertionSorting = new InsertionSorting(a);
     	
     }
 }
