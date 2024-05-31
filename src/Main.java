@@ -34,7 +34,7 @@ public class Main {
 //    	counting.Count();
     	
     	int [] a = {3, 41, 52, 26, 38, 57, 9, 49};
-    	InsertionSorting insertionSorting = new InsertionSorting(a);
-    	
+    	//InsertionSorting insertionSorting = new InsertionSorting(a);
+    	MergeSort mergeSort = new MergeSort(a);
     }
 }
