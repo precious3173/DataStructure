@@ -33,10 +33,18 @@ public class Main {
 //    	CountingFigures counting = new CountingFigures();
 //    	counting.Count();
     	
-    	int [] a = {3, 41, 52, 26, 38, 57, 9, 49};
+    //	int [] a = {3, 41, 52, 26, 38, 57, 9, 49};
     	//InsertionSorting insertionSorting = new InsertionSorting(a);
-        MergeSort mergeSort = new MergeSort();
-        mergeSort.Merge(a);
-       // System.out.println("hello world");
+//        MergeSort mergeSort = new MergeSort();
+//        mergeSort.Merge(a);
+//       // System.out.println("hello world");
+    	
+    	StackData stack = new StackData(5);
+    	stack.Push(3);
+    	stack.Push(10);
+    	stack.Push(11);
+    	
+    	System.out.println(stack.pop());
+    	stack.Push(19);
     }
 }
