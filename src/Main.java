@@ -35,7 +35,8 @@ public class Main {
     	
     	int [] a = {3, 41, 52, 26, 38, 57, 9, 49};
     	//InsertionSorting insertionSorting = new InsertionSorting(a);
-        MergeSort mergeSort = new MergeSort(a);
+        MergeSort mergeSort = new MergeSort();
+        mergeSort.Merge(a);
        // System.out.println("hello world");
     }
 }
