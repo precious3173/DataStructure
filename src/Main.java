@@ -39,12 +39,22 @@ public class Main {
 //        mergeSort.Merge(a);
 //       // System.out.println("hello world");
     	
-    	StackData stack = new StackData(5);
-    	stack.Push(3);
-    	stack.Push(10);
-    	stack.Push(11);
+//    	StackData stack = new StackData(5);
+//    	stack.Push(3);
+//    	stack.Push(10);
+//    	stack.Push(11);
+//    	
+//    	System.out.println(stack.pop());
+//    	stack.Push(19);
     	
-    	System.out.println(stack.pop());
-    	stack.Push(19);
+    	
+    	Queue queue = new Queue(10);
+    	
+    	queue.enqueue("love");
+    	queue.enqueue("hate");
+    	queue.enqueue("pain");
+    	
+    	System.out.println(queue.dequeue());
+    	queue.enqueue("pain");
     }
 }
