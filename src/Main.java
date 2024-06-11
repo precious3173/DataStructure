@@ -54,7 +54,13 @@ public class Main {
     	queue.enqueue("hate");
     	queue.enqueue("pain");
     	
-    	System.out.println(queue.dequeue());
-    	queue.enqueue("pain");
+    	queue.dequeue();
+    	queue.enqueue("Noway");
+    	queue.enqueue("Mamba");
+    	queue.dequeue();
+    	queue.dequeue();
+    	
+    	queue.show();
+    	
     }
 }
