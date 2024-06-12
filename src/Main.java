@@ -66,7 +66,11 @@ public class Main {
     	
     	int [] a = {31, 41, 59, 26, 41, 58};
 
-    	DescendingSort sort = new DescendingSort(a);
+    	//DescendingSort sort = new DescendingSort(a);
     	
+    	LinearSearch linear = new LinearSearch ();
+    	
+    	int val =linear.searchValue(a, 58);
+    	System.out.print(val);
     }
 }
