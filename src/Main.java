@@ -48,19 +48,25 @@ public class Main {
 //    	stack.Push(19);
     	
     	
-    	Queue queue = new Queue(10);
+//    	Queue queue = new Queue(10);
+//    	
+//    	queue.enqueue("love");
+//    	queue.enqueue("hate");
+//    	queue.enqueue("pain");
+//    	
+//    	queue.dequeue();
+//    	queue.enqueue("Noway");
+//    	queue.enqueue("Mamba");
+//    	queue.dequeue();
+//    	queue.dequeue();
+//    	
+//    	queue.show();
+//    	
+//    	Linked linked = new Linked();
     	
-    	queue.enqueue("love");
-    	queue.enqueue("hate");
-    	queue.enqueue("pain");
-    	
-    	queue.dequeue();
-    	queue.enqueue("Noway");
-    	queue.enqueue("Mamba");
-    	queue.dequeue();
-    	queue.dequeue();
-    	
-    	queue.show();
+    	int [] a = {31, 41, 59, 26, 41, 58};
+
+    	DescendingSort sort = new DescendingSort(a);
     	
     }
 }
