@@ -65,12 +65,23 @@ public class Main {
 //    	Linked linked = new Linked();
     	
     	int [] a = {31, 41, 59, 26, 41, 58};
+    	int [] b = {9, 9, 1, 4, 9, 2};
+
 
     	//DescendingSort sort = new DescendingSort(a);
     	
-    	LinearSearch linear = new LinearSearch ();
+    //	AddArrays add = new AddArrays (a, b);
     	
-    	int val =linear.searchValue(a, 58);
-    	System.out.print(val);
+    	int p = 0;
+    	int r = a.length -1;
+    	
+//    	MergeSort1 merge = new MergeSort1();
+//    	merge.MergeSort(a, p, r); 
+//    	
+//    
+//    	System.out.print(val);
+    	
+    	RecursionPractice practice = new RecursionPractice();
+    	practice.Precious(a, p, r);
     }
 }
