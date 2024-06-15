@@ -75,13 +75,13 @@ public class Main {
     	int p = 0;
     	int r = a.length -1;
     	
-//    	MergeSort1 merge = new MergeSort1();
-//    	merge.MergeSort(a, p, r); 
-//    	
+    	MergeSort1 merge = new MergeSort1();
+    	merge.MergeSort(a, p, r); 
+    	
 //    
 //    	System.out.print(val);
     	
-    	RecursionPractice practice = new RecursionPractice();
-    	practice.Precious(a, p, r);
+//    	RecursionPractice practice = new RecursionPractice();
+//    	practice.Precious(10);
     }
 }
