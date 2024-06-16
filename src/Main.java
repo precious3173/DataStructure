@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -75,11 +76,11 @@ public class Main {
     	int p = 0;
     	int r = a.length -1;
     	
-    	MergeSort1 merge = new MergeSort1();
-    	merge.MergeSort(a, p, r); 
+    	QuickSort quicksort = new QuickSort();
+    	quicksort.Sort(a, p, r); 
     	
-//    
-//    	System.out.print(val);
+       	//System.out.println(Arrays.toString(a));
+       	quicksort.printArray(a);
     	
 //    	RecursionPractice practice = new RecursionPractice();
 //    	practice.Precious(10);
