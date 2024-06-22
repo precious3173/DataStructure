@@ -72,17 +72,26 @@ public class Main {
     	//DescendingSort sort = new DescendingSort(a);
     	
     //	AddArrays add = new AddArrays (a, b);
+//    	
+//    	int p = 0;
+//    	int r = a.length -1;
     	
-    	int p = 0;
-    	int r = a.length -1;
-    	
-    	QuickSort quicksort = new QuickSort();
-    	quicksort.Sort(a, p, r); 
-    	
+//    	QuickSort quicksort = new QuickSort();
+//    	quicksort.Sort(a, p, r); 
+//    	
        	//System.out.println(Arrays.toString(a));
-       	quicksort.printArray(a);
+       //	quicksort.printArray(a);
     	
 //    	RecursionPractice practice = new RecursionPractice();
 //    	practice.Precious(10);
+    	
+    	Linked linked = new Linked();
+    	linked.insert(10);
+    	linked.insert(5);
+    	linked.insert(3);
+    	linked.insert(2);
+    	linked.insert(9);
+    	
+    	linked.Search(9);
     }
 }
