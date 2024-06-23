@@ -1,6 +1,8 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+import HashTable.CustomerDetails;
+
 public class Main {
     public static void main(String[] args) {
 //
@@ -85,13 +87,30 @@ public class Main {
 //    	RecursionPractice practice = new RecursionPractice();
 //    	practice.Precious(10);
     	
-    	Linked linked = new Linked();
-    	linked.insert(10);
-    	linked.insert(5);
-    	linked.insert(3);
-    	linked.insert(2);
-    	linked.insert(9);
+//    	Linked linked = new Linked();
+//    	linked.insert(10);
+//    	linked.insert(5);
+//    	linked.insert(3);
+//    	linked.insert(2);
+//    	linked.insert(9);
+//    	
+//    	linked.Search(9);
+     	HashTable hash = new HashTable();
+     	  HashTable.CustomerDetails customer1 = new HashTable.CustomerDetails("John", "Doe", "1234567890", "$100", "Laptop", "Young doe");
+     	 HashTable.CustomerDetails  customer2 = new HashTable.CustomerDetails ("Jane", "Doe", "0987654321", "$200", "Phone", "Young doe");   
+     	  hash.put(1, customer1);
+          hash.put(2, customer2);
+          
+          System.out.println("Customer with key 1: " + hash.get(1)); // Should print John
+          System.out.println("Customer with key 2: " + hash.get(2)); // Should print Jane
     	
-    	linked.Search(9);
+          HashTable.Seller seller1 = new HashTable.Seller("Young doe", "Product Manager");
+          HashTable.Seller seller2 = new HashTable.Seller("Old doe", "Sales Manager");
+          
+          hash.putSeller(1, seller1);
+          System.out.println(hash.getSeller(1));
+          
+          hash.CustomerAllocation("Young doe");
+    
     }
 }
