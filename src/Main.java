@@ -140,6 +140,13 @@ public class Main {
           
           System.out.println(hash.getProduct(3));
           
+          System.out.println(hash.getHashLength());
+
+          hash.HeapSort();
+          //hash.QuickSort(hash.getTable(), 0 , hash.getTable().length -1);
+          
+          hash.alphaHeapSort();
+          hash.AlphaInsertion(hash.getTable());
     
     }
 }
