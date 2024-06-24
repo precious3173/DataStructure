@@ -147,6 +147,20 @@ public class Main {
           
           hash.alphaHeapSort();
           hash.AlphaInsertion(hash.getTable());
+          
+          BinarySearch tree = new BinarySearch();
+          
+          System.out.println();
+          tree.root = new Node(15);
+          tree.root.left = new Node (10);
+          tree.root.left.right = new Node(11);
+          tree.root.right = new Node(20);
+          tree.root.left.left = new Node (9);
+          
+          
+          tree.inorderTraversal(tree.root);
+          
+          System.out.println(tree.Tree_Search(tree.root, 10).data);
     
     }
 }
