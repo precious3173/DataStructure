@@ -98,7 +98,7 @@ public class Main {
      	HashTable hash = new HashTable();
      	  HashTable.CustomerDetails customer1 = new HashTable.CustomerDetails("John", "Doe", "1234567890", 50, "Laptop", "Young");
      	 HashTable.CustomerDetails  customer2 = new HashTable.CustomerDetails ("Jane", "May", "0987654321", 20, "Iphone", "Josh"); 
-     	  HashTable.CustomerDetails customer3 = new HashTable.CustomerDetails("Lucy", "Lala", "1234567890", 30, "Iphone Painting", "Josh");
+     	  HashTable.CustomerDetails customer3 = new HashTable.CustomerDetails("Lucy", "Lala", "1234567890", 30, "Iphone", "Josh");
       	 HashTable.CustomerDetails  customer4 = new HashTable.CustomerDetails ("Jack", "Poo", "0987654321", 35, "Samsung", "Peter");   
       	HashTable.CustomerDetails customer5 = new HashTable.CustomerDetails("Larry", "Lala", "1234567890", 45, "Desktop", "Peter");
      	 HashTable.CustomerDetails  customer6 = new HashTable.CustomerDetails ("Bark", "Poo", "0987654321", 70, "Iphone, Laptop", "Peter"); 
@@ -161,6 +161,15 @@ public class Main {
           tree.inorderTraversal(tree.root);
           
           System.out.println(tree.Tree_Search(tree.root, 10).data);
+          System.out.println(tree.Tree_Mininum(tree.root));
+          
+          hash.CostofService("Iphone", hash.getTable());
+          hash.HighestServiceCost(hash.getTable());
+          hash.LowestServiceCost(hash.getTable());
     
+          System.out.print(" Enter the stylist's name: " );
+      	Scanner s = new Scanner(System.in);
+      	String sylist =s.next();
+      	hash. userInput(sylist, hash.getTable());
     }
 }
